@@ -13,12 +13,16 @@
 NAME = push_swap
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -Ilibft
-SRC =  init.c main.c swap.c rotate.c reverse_rotate.c push.c sorting.c utlis.c\
-		errors.c set_stack_topush.c push_swap.c\
+SRC_DIR	=	./srcs/
+
+SRC =  $(SRC_DIR)init.c $(SRC_DIR)main.c $(SRC_DIR)swap.c \
+		$(SRC_DIR)rotate.c $(SRC_DIR)reverse_rotate.c $(SRC_DIR)push.c $(SRC_DIR)sorting.c $(SRC_DIR)utlis.c\
+		$(SRC_DIR)errors.c $(SRC_DIR)set_stack_topush.c $(SRC_DIR)push_swap.c\
 
 LIBFT_DIR = ./libft
 LIBFT = $(LIBFT_DIR)/libft.a
 LIBS = -L$(LIBFT_DIR) -lft
+
 
 OBJ = $(SRC:.c=.o)
 

@@ -2,7 +2,7 @@
 
 Push_swap is a C program designed to sort a stack of integers using a minimal number of operations. This project challenges developers to implement efficient algorithms while adhering to specific constraints.
 
-![push swap](link)
+![push swap](https://github.com/roma-sh/push_swap/blob/master/images/push_swap.gif)
 
 ## Features
 
